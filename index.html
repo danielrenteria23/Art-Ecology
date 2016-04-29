@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Visualizing Data</title>
+
+    <link rel="stylesheet" href="style.css">
+    <script src="jQuery.min.js"></script>
+    <script src="index.js"></script>
+  </head>
+
+  <body>
+    <canvas id="canvas"></canvas>
+    
+<div id="info">
+    <p id="buttonsLine">
+    <input type="submit" id="submit" value="Generate"/>
+    </p>
+</div>
+
+<div id="info1"> <b>Visualizing Data</b> by Daniel Renteria
+    <p id="buttonsLine">
+    <input type="button" id="internetUsers" value="Internet Users"/>
+    <input type="button" id="emails" value="Emails"/>
+    <input type="button" id="textMessages" value="Text Messages"/>
+    <input type="button" id="websites" value="Websites"/>
+    </p>
+    Based off live internet data: <a href="http://www.internetlivestats.com">http://www.internetlivestats.com</a>
+</div>
+
+<div id="controls">
+    <h1>Hello there!!</h1>
+  <p id="intro">Hey!!</p>
+	<p><label for="numberOfLines">Lines</label><input type="text" id="numberOfLines" value=""/></p>
+	<p><label for="size">Width</label><input type="text" id="size" value=""/></p>
+	<p><label for="distance">Step</label><input type="text" id="distance" value=""/></p>
+	<p><label for="speed">Speed</label><input type="text" id="speed" value=""/></p>
+	<p><label for="increment">Increment</label><input type="text" id="increment" value=""/></p>
+	<p><label for="turn">Rotate</label><input type="text" id="turn" value=""/></p>
+	<p><label for="wobble">Split</label><input type="text" id="wobble" value=""/></p>
+	<p><label for="opacity">Opacity</label><input type="text" id="opacity" value=""/></p>
+</div>
+  </body>
+</html>
